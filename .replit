@@ -1,0 +1,10 @@
+modules = ["web"]
+run = "run"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = "python -m http.server 8000"
+
+
